@@ -57,7 +57,7 @@ export default function GalleryPage() {
               value: "2,500+",
               title: "Installations Completed",
               description: "Professional projects across residential and commercial sectors",
-              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg?_wi=3",
               imageAlt: "completed ceiling installation project showcase",
             },
             {
@@ -65,7 +65,7 @@ export default function GalleryPage() {
               value: "98%",
               title: "Client Satisfaction Rate",
               description: "Consistent excellence recognized by customers and industry partners",
-              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg?_wi=3",
               imageAlt: "satisfied customer home renovation showcase",
             },
           ]}
@@ -85,7 +85,7 @@ export default function GalleryPage() {
               quote: "CeilingPro transformed our living space completely. The installation was professional, clean, and the final result exceeded our expectations.",
               name: "Maria Popescu",
               role: "Homeowner - Bucharest",
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-characterizing-painter_23-2149529892.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-characterizing-painter_23-2149529892.jpg?_wi=2",
               imageAlt: "homeowner portrait professional headshot",
             },
             {
@@ -94,7 +94,7 @@ export default function GalleryPage() {
               quote: "We've partnered with CeilingPro on multiple commercial installations. Their reliability, technical knowledge, and project management are outstanding.",
               name: "Ivan Petrov",
               role: "General Contractor - Moscow",
-              imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-business-man-hard-hat_1303-23575.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-business-man-hard-hat_1303-23575.jpg?_wi=2",
               imageAlt: "contractor professional portrait headshot",
             },
             {
@@ -103,7 +103,7 @@ export default function GalleryPage() {
               quote: "The material selection and color options available from CeilingPro provide excellent flexibility for our design clients. Highly recommended.",
               name: "Elena Ioannidou",
               role: "Interior Designer - Bratislava",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-fashion-designer-working-her-workshop-alone_23-2148877352.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-fashion-designer-working-her-workshop-alone_23-2148877352.jpg?_wi=2",
               imageAlt: "interior designer professional portrait",
             },
             {
@@ -112,7 +112,7 @@ export default function GalleryPage() {
               quote: "As a retailer, we appreciate CeilingPro's competitive pricing, consistent quality, and dedicated account support. They're our go-to supplier.",
               name: "Dmitri Sokolov",
               role: "Retailer & Distributor - St. Petersburg",
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg?_wi=2",
               imageAlt: "business owner retailer professional portrait",
             },
           ]}
