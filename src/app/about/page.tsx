@@ -49,7 +49,7 @@ export default function AboutPage() {
           description="Why Choose CeilingPro"
           subdescription="Industry Leaders in Stretch Ceiling Systems"
           icon={CheckCircle}
-          imageSrc="http://img.b2bpic.net/free-photo/construction-worker-assembly-suspended-ceiling-with-drywall-fixing-drywall-ceiling-metal-frame-with-screwdriver_166373-1913.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/construction-worker-assembly-suspended-ceiling-with-drywall-fixing-drywall-ceiling-metal-frame-with-screwdriver_166373-1913.jpg?_wi=4"
           imageAlt="Professional installation showcase"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -63,19 +63,19 @@ export default function AboutPage() {
               id: 1,
               title: "Professional Installation",
               description: "Expert teams deliver flawless stretch ceiling installations with precision alignment, seamless finishes, and minimal disruption to your space.",
-              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=3",
             },
             {
               id: 2,
               title: "Premium Materials",
               description: "We source high-quality stretch fabrics from trusted suppliers, offering durability, aesthetic appeal, and compliance with building standards.",
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=3",
             },
             {
               id: 3,
               title: "Complete Accessories",
               description: "Full range of mounting hardware, clips, profiles, and replacement parts. Compatible with all major ceiling systems for hassle-free integration.",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-square-endless-spiral-pattern_181624-4529.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-square-endless-spiral-pattern_181624-4529.jpg?_wi=3",
             },
           ]}
           title="Our Core Services & Capabilities"
@@ -97,14 +97,14 @@ export default function AboutPage() {
               value: "2,500+",
               title: "Installations Completed",
               description: "Professional projects across residential and commercial sectors",
-              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg?_wi=4",
             },
             {
               id: "metric-2",
               value: "98%",
               title: "Client Satisfaction Rate",
               description: "Consistent excellence recognized by customers and industry partners",
-              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg?_wi=4",
             },
           ]}
           title="Our Proven Track Record"
