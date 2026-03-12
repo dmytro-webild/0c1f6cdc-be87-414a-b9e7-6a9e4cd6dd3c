@@ -12,16 +12,16 @@ import Link from "next/link";
 export default function AboutPage() {
   return (
     <ThemeProvider
-      defaultButtonVariant="shift-hover"
-      defaultTextAnimation="reveal-blur"
+      defaultButtonVariant="text-shift"
+      defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmall"
       background="none"
-      cardStyle="layered-gradient"
-      primaryButtonStyle="double-inset"
-      secondaryButtonStyle="layered"
-      headingFontWeight="normal"
+      cardStyle="solid"
+      primaryButtonStyle="shadow"
+      secondaryButtonStyle="solid"
+      headingFontWeight="bold"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
@@ -34,9 +34,7 @@ export default function AboutPage() {
             { name: "About", id: "/about" },
           ]}
           button={{
-            text: "Contact Us",
-            href: "/contact",
-          }}
+            text: "Contact Us",            href: "/contact"}}
         />
       </div>
 
@@ -61,22 +59,13 @@ export default function AboutPage() {
           features={[
             {
               id: 1,
-              title: "Professional Installation",
-              description: "Expert teams deliver flawless stretch ceiling installations with precision alignment, seamless finishes, and minimal disruption to your space.",
-              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=3",
-            },
+              title: "Professional Installation",              description: "Expert teams deliver flawless stretch ceiling installations with precision alignment, seamless finishes, and minimal disruption to your space.",              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=3"},
             {
               id: 2,
-              title: "Premium Materials",
-              description: "We source high-quality stretch fabrics from trusted suppliers, offering durability, aesthetic appeal, and compliance with building standards.",
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=3",
-            },
+              title: "Premium Materials",              description: "We source high-quality stretch fabrics from trusted suppliers, offering durability, aesthetic appeal, and compliance with building standards.",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=3"},
             {
               id: 3,
-              title: "Complete Accessories",
-              description: "Full range of mounting hardware, clips, profiles, and replacement parts. Compatible with all major ceiling systems for hassle-free integration.",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-square-endless-spiral-pattern_181624-4529.jpg?_wi=3",
-            },
+              title: "Complete Accessories",              description: "Full range of mounting hardware, clips, profiles, and replacement parts. Compatible with all major ceiling systems for hassle-free integration.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-square-endless-spiral-pattern_181624-4529.jpg?_wi=3"},
           ]}
           title="Our Core Services & Capabilities"
           description="We deliver comprehensive ceiling solutions tailored to homeowners, contractors, and retailers with proven expertise and quality assurance."
@@ -93,19 +82,9 @@ export default function AboutPage() {
         <MetricCardEleven
           metrics={[
             {
-              id: "metric-1",
-              value: "2,500+",
-              title: "Installations Completed",
-              description: "Professional projects across residential and commercial sectors",
-              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg?_wi=4",
-            },
+              id: "metric-1",              value: "2,500+",              title: "Installations Completed",              description: "Professional projects across residential and commercial sectors",              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg?_wi=4"},
             {
-              id: "metric-2",
-              value: "98%",
-              title: "Client Satisfaction Rate",
-              description: "Consistent excellence recognized by customers and industry partners",
-              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg?_wi=4",
-            },
+              id: "metric-2",              value: "98%",              title: "Client Satisfaction Rate",              description: "Consistent excellence recognized by customers and industry partners",              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg?_wi=4"},
           ]}
           title="Our Proven Track Record"
           description="Thousands of satisfied customers trust CeilingPro for quality, reliability, and exceptional service in stretch ceiling solutions."
@@ -125,19 +104,13 @@ export default function AboutPage() {
           socialLinks={[
             {
               icon: Facebook,
-              href: "https://facebook.com/ceilingpro",
-              ariaLabel: "Follow us on Facebook",
-            },
+              href: "https://facebook.com/ceilingpro",              ariaLabel: "Follow us on Facebook"},
             {
               icon: Linkedin,
-              href: "https://linkedin.com/company/ceilingpro",
-              ariaLabel: "Connect on LinkedIn",
-            },
+              href: "https://linkedin.com/company/ceilingpro",              ariaLabel: "Connect on LinkedIn"},
             {
               icon: Instagram,
-              href: "https://instagram.com/ceilingpro",
-              ariaLabel: "Follow us on Instagram",
-            },
+              href: "https://instagram.com/ceilingpro",              ariaLabel: "Follow us on Instagram"},
           ]}
         />
       </div>
