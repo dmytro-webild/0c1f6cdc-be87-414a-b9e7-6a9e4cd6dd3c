@@ -16,16 +16,16 @@ import { Sparkles, Award, CheckCircle, Zap, Package, TrendingUp, Facebook, Linke
 export default function HomePage() {
   return (
     <ThemeProvider
-      defaultButtonVariant="shift-hover"
-      defaultTextAnimation="reveal-blur"
+      defaultButtonVariant="text-shift"
+      defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmall"
       background="none"
-      cardStyle="layered-gradient"
-      primaryButtonStyle="double-inset"
-      secondaryButtonStyle="layered"
-      headingFontWeight="normal"
+      cardStyle="solid"
+      primaryButtonStyle="shadow"
+      secondaryButtonStyle="solid"
+      headingFontWeight="bold"
     >
       {/* Navbar */}
       <div id="nav" data-section="nav">
@@ -39,9 +39,7 @@ export default function HomePage() {
             { name: "About", id: "/about" },
           ]}
           button={{
-            text: "Contact Us",
-            href: "/contact",
-          }}
+            text: "Contact Us",            href: "/contact"}}
         />
       </div>
 
@@ -55,40 +53,24 @@ export default function HomePage() {
           tagAnimation="slide-up"
           buttons={[
             {
-              text: "Call Now",
-              href: "tel:+1234567890",
-            },
+              text: "Call Now",              href: "tel:+1234567890"},
             {
-              text: "Send Inquiry",
-              href: "#contact",
-            },
+              text: "Send Inquiry",              href: "#contact"},
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
             {
-              id: "carousel-1",
-              imageSrc: "http://img.b2bpic.net/free-photo/construction-worker-assembly-suspended-ceiling-with-drywall-fixing-drywall-ceiling-metal-frame-with-screwdriver_166373-1913.jpg?_wi=1",
-            },
+              id: "carousel-1",              imageSrc: "http://img.b2bpic.net/free-photo/construction-worker-assembly-suspended-ceiling-with-drywall-fixing-drywall-ceiling-metal-frame-with-screwdriver_166373-1913.jpg?_wi=1"},
             {
-              id: "carousel-2",
-              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=1",
-            },
+              id: "carousel-2",              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=1"},
             {
-              id: "carousel-3",
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=1",
-            },
+              id: "carousel-3",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=1"},
             {
-              id: "carousel-4",
-              imageSrc: "http://img.b2bpic.net/free-photo/people-office-workday_23-2147668795.jpg?_wi=1",
-            },
+              id: "carousel-4",              imageSrc: "http://img.b2bpic.net/free-photo/people-office-workday_23-2147668795.jpg?_wi=1"},
             {
-              id: "carousel-5",
-              imageSrc: "http://img.b2bpic.net/free-photo/low-angle-view-building-ceiling_1359-344.jpg?_wi=1",
-            },
+              id: "carousel-5",              imageSrc: "http://img.b2bpic.net/free-photo/low-angle-view-building-ceiling_1359-344.jpg?_wi=1"},
             {
-              id: "carousel-6",
-              imageSrc: "http://img.b2bpic.net/free-vector/colored-abstract-shapes-background_1115-115.jpg?_wi=1",
-            },
+              id: "carousel-6",              imageSrc: "http://img.b2bpic.net/free-vector/colored-abstract-shapes-background_1115-115.jpg?_wi=1"},
           ]}
           autoPlay={true}
           autoPlayInterval={4000}
@@ -127,22 +109,13 @@ export default function HomePage() {
           features={[
             {
               id: 1,
-              title: "Professional Installation",
-              description: "Expert teams deliver flawless stretch ceiling installations with precision alignment, seamless finishes, and minimal disruption to your space.",
-              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=2",
-            },
+              title: "Professional Installation",              description: "Expert teams deliver flawless stretch ceiling installations with precision alignment, seamless finishes, and minimal disruption to your space.",              imageSrc: "http://img.b2bpic.net/free-photo/workers-using-hvac-manifold-indicators_482257-92534.jpg?_wi=2"},
             {
               id: 2,
-              title: "Premium Materials",
-              description: "We source high-quality stretch fabrics from trusted suppliers, offering durability, aesthetic appeal, and compliance with building standards.",
-              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=2",
-            },
+              title: "Premium Materials",              description: "We source high-quality stretch fabrics from trusted suppliers, offering durability, aesthetic appeal, and compliance with building standards.",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-relaxing-indoors_23-2151030661.jpg?_wi=2"},
             {
               id: 3,
-              title: "Complete Accessories",
-              description: "Full range of mounting hardware, clips, profiles, and replacement parts. Compatible with all major ceiling systems for hassle-free integration.",
-              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-square-endless-spiral-pattern_181624-4529.jpg?_wi=1",
-            },
+              title: "Complete Accessories",              description: "Full range of mounting hardware, clips, profiles, and replacement parts. Compatible with all major ceiling systems for hassle-free integration.",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-square-endless-spiral-pattern_181624-4529.jpg?_wi=1"},
           ]}
         />
       </div>
@@ -161,23 +134,11 @@ export default function HomePage() {
           gridVariant="three-columns-all-equal-width"
           products={[
             {
-              id: "prod-1",
-              name: "Glossy Stretch Ceiling",
-              price: "€25/m²",
-              imageSrc: "http://img.b2bpic.net/free-photo/people-office-workday_23-2147668795.jpg?_wi=2",
-            },
+              id: "prod-1",              name: "Glossy Stretch Ceiling",              price: "€25/m²",              imageSrc: "http://img.b2bpic.net/free-photo/people-office-workday_23-2147668795.jpg?_wi=2"},
             {
-              id: "prod-2",
-              name: "Matte Stretch Ceiling",
-              price: "€22/m²",
-              imageSrc: "http://img.b2bpic.net/free-photo/low-angle-view-building-ceiling_1359-344.jpg?_wi=2",
-            },
+              id: "prod-2",              name: "Matte Stretch Ceiling",              price: "€22/m²",              imageSrc: "http://img.b2bpic.net/free-photo/low-angle-view-building-ceiling_1359-344.jpg?_wi=2"},
             {
-              id: "prod-3",
-              name: "Custom Printed Ceiling",
-              price: "€35/m²",
-              imageSrc: "http://img.b2bpic.net/free-vector/colored-abstract-shapes-background_1115-115.jpg?_wi=2",
-            },
+              id: "prod-3",              name: "Custom Printed Ceiling",              price: "€35/m²",              imageSrc: "http://img.b2bpic.net/free-vector/colored-abstract-shapes-background_1115-115.jpg?_wi=2"},
           ]}
         />
       </div>
@@ -195,19 +156,9 @@ export default function HomePage() {
           animationType="slide-up"
           metrics={[
             {
-              id: "metric-1",
-              value: "2,500+",
-              title: "Installations Completed",
-              description: "Professional projects across residential and commercial sectors",
-              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg?_wi=1",
-            },
+              id: "metric-1",              value: "2,500+",              title: "Installations Completed",              description: "Professional projects across residential and commercial sectors",              imageSrc: "http://img.b2bpic.net/free-photo/lower-angle-portrait-young-strong-man-with-muscles-tries-close-his-suitcase-full-clothes-pressing-bag-with-effort_1258-314717.jpg?_wi=1"},
             {
-              id: "metric-2",
-              value: "98%",
-              title: "Client Satisfaction Rate",
-              description: "Consistent excellence recognized by customers and industry partners",
-              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg?_wi=1",
-            },
+              id: "metric-2",              value: "98%",              title: "Client Satisfaction Rate",              description: "Consistent excellence recognized by customers and industry partners",              imageSrc: "http://img.b2bpic.net/free-photo/engineering-concept-with-three-business-people_23-2147704232.jpg?_wi=1"},
           ]}
         />
       </div>
@@ -221,37 +172,13 @@ export default function HomePage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "test-1",
-              title: "Perfect Solution for Home Renovation",
-              quote: "CeilingPro transformed our living space completely. The installation was professional, clean, and the final result exceeded our expectations.",
-              name: "Maria Popescu",
-              role: "Homeowner - Bucharest",
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-characterizing-painter_23-2149529892.jpg?_wi=1",
-            },
+              id: "test-1",              title: "Perfect Solution for Home Renovation",              quote: "CeilingPro transformed our living space completely. The installation was professional, clean, and the final result exceeded our expectations.",              name: "Maria Popescu",              role: "Homeowner - Bucharest",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-characterizing-painter_23-2149529892.jpg?_wi=1"},
             {
-              id: "test-2",
-              title: "Reliable Partner for Commercial Projects",
-              quote: "We've partnered with CeilingPro on multiple commercial installations. Their reliability, technical knowledge, and project management are outstanding.",
-              name: "Ivan Petrov",
-              role: "General Contractor - Moscow",
-              imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-business-man-hard-hat_1303-23575.jpg?_wi=1",
-            },
+              id: "test-2",              title: "Reliable Partner for Commercial Projects",              quote: "We've partnered with CeilingPro on multiple commercial installations. Their reliability, technical knowledge, and project management are outstanding.",              name: "Ivan Petrov",              role: "General Contractor - Moscow",              imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-business-man-hard-hat_1303-23575.jpg?_wi=1"},
             {
-              id: "test-3",
-              title: "Quality Materials for Design Projects",
-              quote: "The material selection and color options available from CeilingPro provide excellent flexibility for our design clients. Highly recommended.",
-              name: "Elena Ioannidou",
-              role: "Interior Designer - Bratislava",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-fashion-designer-working-her-workshop-alone_23-2148877352.jpg?_wi=1",
-            },
+              id: "test-3",              title: "Quality Materials for Design Projects",              quote: "The material selection and color options available from CeilingPro provide excellent flexibility for our design clients. Highly recommended.",              name: "Elena Ioannidou",              role: "Interior Designer - Bratislava",              imageSrc: "http://img.b2bpic.net/free-photo/young-fashion-designer-working-her-workshop-alone_23-2148877352.jpg?_wi=1"},
             {
-              id: "test-4",
-              title: "Excellent Bulk Supply and Support",
-              quote: "As a retailer, we appreciate CeilingPro's competitive pricing, consistent quality, and dedicated account support. They're our go-to supplier.",
-              name: "Dmitri Sokolov",
-              role: "Retailer & Distributor - St. Petersburg",
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg?_wi=1",
-            },
+              id: "test-4",              title: "Excellent Bulk Supply and Support",              quote: "As a retailer, we appreciate CeilingPro's competitive pricing, consistent quality, and dedicated account support. They're our go-to supplier.",              name: "Dmitri Sokolov",              role: "Retailer & Distributor - St. Petersburg",              imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg?_wi=1"},
           ]}
         />
       </div>
@@ -263,13 +190,9 @@ export default function HomePage() {
           animationType="reveal-blur"
           buttons={[
             {
-              text: "Request Free Estimate",
-              href: "/contact",
-            },
+              text: "Request Free Estimate",              href: "/contact"},
             {
-              text: "Call: +1 (555) 123-4567",
-              href: "tel:+15551234567",
-            },
+              text: "Call: +1 (555) 123-4567",              href: "tel:+15551234567"},
           ]}
           background={{ variant: "animated-grid" }}
           useInvertedBackground={false}
@@ -284,19 +207,13 @@ export default function HomePage() {
           socialLinks={[
             {
               icon: Facebook,
-              href: "https://facebook.com/ceilingpro",
-              ariaLabel: "Follow us on Facebook",
-            },
+              href: "https://facebook.com/ceilingpro",              ariaLabel: "Follow us on Facebook"},
             {
               icon: Linkedin,
-              href: "https://linkedin.com/company/ceilingpro",
-              ariaLabel: "Connect on LinkedIn",
-            },
+              href: "https://linkedin.com/company/ceilingpro",              ariaLabel: "Connect on LinkedIn"},
             {
               icon: Instagram,
-              href: "https://instagram.com/ceilingpro",
-              ariaLabel: "Follow us on Instagram",
-            },
+              href: "https://instagram.com/ceilingpro",              ariaLabel: "Follow us on Instagram"},
           ]}
         />
       </div>

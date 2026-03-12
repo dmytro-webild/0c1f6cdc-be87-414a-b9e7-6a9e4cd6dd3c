@@ -10,16 +10,16 @@ import Link from "next/link";
 export default function ContactPage() {
   return (
     <ThemeProvider
-      defaultButtonVariant="shift-hover"
-      defaultTextAnimation="reveal-blur"
+      defaultButtonVariant="text-shift"
+      defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmall"
       background="none"
-      cardStyle="layered-gradient"
-      primaryButtonStyle="double-inset"
-      secondaryButtonStyle="layered"
-      headingFontWeight="normal"
+      cardStyle="solid"
+      primaryButtonStyle="shadow"
+      secondaryButtonStyle="solid"
+      headingFontWeight="bold"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
@@ -32,9 +32,7 @@ export default function ContactPage() {
             { name: "About", id: "/about" },
           ]}
           button={{
-            text: "Contact Us",
-            href: "/contact",
-          }}
+            text: "Contact Us",            href: "/contact"}}
         />
       </div>
 
@@ -44,17 +42,12 @@ export default function ContactPage() {
           animationType="reveal-blur"
           buttons={[
             {
-              text: "Request Free Estimate",
-              href: "/contact",
-            },
+              text: "Request Free Estimate",              href: "/contact"},
             {
-              text: "Call: +1 (555) 123-4567",
-              href: "tel:+15551234567",
-            },
+              text: "Call: +1 (555) 123-4567",              href: "tel:+15551234567"},
           ]}
           background={{
-            variant: "animated-grid",
-          }}
+            variant: "animated-grid"}}
           useInvertedBackground={false}
         />
       </div>
@@ -66,19 +59,13 @@ export default function ContactPage() {
           socialLinks={[
             {
               icon: Facebook,
-              href: "https://facebook.com/ceilingpro",
-              ariaLabel: "Follow us on Facebook",
-            },
+              href: "https://facebook.com/ceilingpro",              ariaLabel: "Follow us on Facebook"},
             {
               icon: Linkedin,
-              href: "https://linkedin.com/company/ceilingpro",
-              ariaLabel: "Connect on LinkedIn",
-            },
+              href: "https://linkedin.com/company/ceilingpro",              ariaLabel: "Connect on LinkedIn"},
             {
               icon: Instagram,
-              href: "https://instagram.com/ceilingpro",
-              ariaLabel: "Follow us on Instagram",
-            },
+              href: "https://instagram.com/ceilingpro",              ariaLabel: "Follow us on Instagram"},
           ]}
         />
       </div>
