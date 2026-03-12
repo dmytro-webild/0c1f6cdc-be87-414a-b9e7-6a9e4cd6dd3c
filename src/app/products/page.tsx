@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import ProductCardOne from "@/components/sections/product/ProductCardOne";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import { Facebook, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Linkedin, Instagram, Package } from "lucide-react";
 
 export default function ProductsPage() {
   const navItems = [
@@ -34,9 +34,7 @@ export default function ProductsPage() {
           brandName="CeilingPro"
           navItems={navItems}
           button={{
-            text: "Contact Us",
-            href: "/contact",
-          }}
+            text: "Contact Us",            href: "/contact"}}
         />
       </div>
 
@@ -45,7 +43,7 @@ export default function ProductsPage() {
           title="Materials & Accessories"
           description="Browse our complete catalog of stretch ceiling systems and professional-grade components. All products backed by quality guarantees."
           tag="Product Catalog"
-          tagIcon="Package"
+          tagIcon={Package}
           tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
@@ -53,26 +51,11 @@ export default function ProductsPage() {
           gridVariant="three-columns-all-equal-width"
           products={[
             {
-              id: "prod-1",
-              name: "Glossy Stretch Ceiling",
-              price: "€25/m²",
-              imageSrc: "http://img.b2bpic.net/free-photo/people-office-workday_23-2147668795.jpg?_wi=4",
-              imageAlt: "glossy stretch ceiling professional finish",
-            },
+              id: "prod-1",              name: "Glossy Stretch Ceiling",              price: "€25/m²",              imageSrc: "http://img.b2bpic.net/free-photo/people-office-workday_23-2147668795.jpg",              imageAlt: "glossy stretch ceiling professional finish"},
             {
-              id: "prod-2",
-              name: "Matte Stretch Ceiling",
-              price: "€22/m²",
-              imageSrc: "http://img.b2bpic.net/free-photo/low-angle-view-building-ceiling_1359-344.jpg?_wi=3",
-              imageAlt: "matte stretch ceiling professional finish",
-            },
+              id: "prod-2",              name: "Matte Stretch Ceiling",              price: "€22/m²",              imageSrc: "http://img.b2bpic.net/free-photo/low-angle-view-building-ceiling_1359-344.jpg",              imageAlt: "matte stretch ceiling professional finish"},
             {
-              id: "prod-3",
-              name: "Custom Printed Ceiling",
-              price: "€35/m²",
-              imageSrc: "http://img.b2bpic.net/free-vector/colored-abstract-shapes-background_1115-115.jpg?_wi=3",
-              imageAlt: "custom printed ceiling design artistic",
-            },
+              id: "prod-3",              name: "Custom Printed Ceiling",              price: "€35/m²",              imageSrc: "http://img.b2bpic.net/free-vector/colored-abstract-shapes-background_1115-115.jpg",              imageAlt: "custom printed ceiling design artistic"},
           ]}
         />
       </div>
@@ -84,19 +67,13 @@ export default function ProductsPage() {
           socialLinks={[
             {
               icon: Facebook,
-              href: "https://facebook.com/ceilingpro",
-              ariaLabel: "Follow us on Facebook",
-            },
+              href: "https://facebook.com/ceilingpro",              ariaLabel: "Follow us on Facebook"},
             {
               icon: Linkedin,
-              href: "https://linkedin.com/company/ceilingpro",
-              ariaLabel: "Connect on LinkedIn",
-            },
+              href: "https://linkedin.com/company/ceilingpro",              ariaLabel: "Connect on LinkedIn"},
             {
               icon: Instagram,
-              href: "https://instagram.com/ceilingpro",
-              ariaLabel: "Follow us on Instagram",
-            },
+              href: "https://instagram.com/ceilingpro",              ariaLabel: "Follow us on Instagram"},
           ]}
         />
       </div>
